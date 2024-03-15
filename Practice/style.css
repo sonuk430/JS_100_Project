@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #414141;
+  text-align: center;
+}
+/* body{
+    display: flex;
+    align-items: center;
+  } */
+
+button {
+  height: 30px;
+  width: 120px;
+  font-size: 1.2rem;
+}
+.first {
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  /* align-items: center; */
+  justify-content: center;
+  border-bottom: solid 2px;
+}
+
+/************************ 1st task end ******************************/
