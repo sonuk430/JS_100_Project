@@ -19,9 +19,14 @@ button {
   height: 50px;
   display: flex;
   gap: 20px;
-  /* align-items: center; */
   justify-content: center;
-  border-bottom: solid 2px;
 }
 
 /************************ 1st task end ******************************/
+
+main {
+  height: auto;
+  padding: 10px;
+  border-bottom: solid 2px;
+}
+
