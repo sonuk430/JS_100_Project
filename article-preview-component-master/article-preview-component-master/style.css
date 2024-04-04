@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #edf2f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper {
+  width: 50rem;
+  /* background-color: teal; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  border-radius: 2rem;
+}
+
+.left-section {
+  height: 300px;
+  width: 40%;
+  /* border: solid 1px orange; */
+}
+
+.left-section img {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+  width: 60%;
+  background-color: #ffffff;
+  padding: 0 2rem 0 2rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+  /* border: solid 1px orange; */
+}
+
+.right-section .pera1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.userContent {
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.userPicName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+}
+
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  gap: 45px;
+  /* width: 50px; */
+  border-radius: 25px;
+}
+
+.shearIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: #edf2f8;
+}
+
+.pic img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
