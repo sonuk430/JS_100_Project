@@ -128,3 +128,37 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 700px){
+  main{
+    height: 100%;
+    width: auto;
+    /* background-color:red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper{
+    flex-direction: column;
+    gap: 30px;
+    overflow-x: scroll;
+    height: 100vh;
+    width: 100vw;
+  }
+  .left-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: auto;
+  }
+
+  .right-section{
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
