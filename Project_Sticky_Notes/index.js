@@ -1,19 +1,32 @@
-const userTaskEl = document.getElementById("userTask");
-const userColorEl = document.getElementById("userColor");
+const userTitleEl = document.getElementById("userTitle");
+const userClorEl = document.getElementById("userClor");
+const userTextAreaEL = document.getElementById("userTextArea");
 const btnEl = document.getElementById("btn");
 
-const ulListEL = document.getElementById("ulList");
+const ulListEl = document.getElementById("ulList");
 
 btnEl.addEventListener("click", () => {
-  let userTask = userTaskEl.value;
+  console.log("done");
+  let userTitle = userTitleEl.value;
+  let userClor = userClorEl.value;
+  let userTextArea = userTextAreaEL.value;
 
-  let userColor = userColorEl.value;
-  console.log(userColor, userTask);
+    console.log(userTitle, userClor, userTextArea);
+  let list = document.createElement("div");
 
-  let list = document.createElement("li");
-  ulListEL.appendChild(list);
-  list.innerText = userTask;
-  list.style.backgroundColor = userColor;
-  userTaskEl.value = "";
-  userColorEl.value = "#248568";
+  list.setAttribute("class", "list");
+
+  ulListEl.appendChild(list);
+  //   list.innerText = userTitle;
+  //   list.style.backgroundColor = userClor;
+
+  list.innerHTML = `
+                <h1>${userTitle}</h1>
+                <textarea style="background-color: ${userClor} ;">${userTextArea}</textarea>
+                <button>❌</button>
+
+`;
+userTitleEl.value = "";
+userClorEl.value = "#454785";
+userTextAreaEL.value = "";
 });
