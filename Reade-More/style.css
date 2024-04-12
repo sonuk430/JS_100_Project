@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #414141;
+}
+
+#pera2 {
+  display: none;
+}
+
+#read-more{
+    color: aqua;
+}
+
+#read-more:hover{
+    color: orange;
+    cursor: pointer;
+    background-color: aqua;
+}
