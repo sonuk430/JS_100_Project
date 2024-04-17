@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: #414141;
   text-align: center;
+  font-family: monospace;
 }
 /* body{
     display: flex;
@@ -15,6 +16,17 @@ button {
   width: 120px;
   font-size: 1.2rem;
 }
+
+input {
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
 .first {
   height: 50px;
   display: flex;
@@ -29,4 +41,3 @@ main {
   padding: 10px;
   border-bottom: solid 2px;
 }
-
